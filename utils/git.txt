@@ -1,0 +1,15 @@
+
+# Create a new branch and switch to it at same time
+
+    $ git checkout -b <BRANCH>
+
+# Make it a remote repo if it's a long-term dev thing
+
+    $ git push <REMOTE REPO> <LOCAL BRANCH NAME>
+
+# To merge, go back to master, merge, then delete
+
+    $ git checkout master
+    $ git merge <BRANCH>
+    $ git branch -d <BRANCH>
+    $ git push origin --delete <BRANCH> # delete remote too
