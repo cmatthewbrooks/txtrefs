@@ -7,32 +7,6 @@ i		“Insert mode” for inserting text. Keys behave as expected.
 :wq		Save and quit
 :q!		Quit without saving
 
-# Navigation
-
-h		moves the cursor one character to the left.
-j or Ctrl + J	moves the cursor down one line.
-k or Ctrl + P	moves the cursor up one line.
-l		moves the cursor one character to the right.
-0		moves the cursor to the beginning of the line.
-$		moves the cursor to the end of the line.
-^		moves the cursor to the first non-empty character of the line
-w		move forward one word (next alphanumeric word)
-W		move forward one word (delimited by a white space)
-5w		move forward five words
-b		move backward one word (previous alphanumeric word)
-B		move backward one word (delimited by a white space)
-5b		move backward five words
-G		move to the end of the file
-gg		move to the beginning of the file.
-(		jumps to the previous sentence
-)		jumps to the next sentence
-{		jumps to the previous paragraph
-}		jumps to the next paragraph
-[[		jumps to the previous section
-]]		jumps to the next section
-[]		jump to the end of the previous section
-][		jump to the end of the next section
-
 # Copy/Paste
 
 yy		copy current line into storage buffer
