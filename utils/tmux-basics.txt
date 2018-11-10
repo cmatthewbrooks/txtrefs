@@ -1,0 +1,3 @@
+C-b %		Split into 2 vertical panes
+C-b left	Move to left pane
+C-b right	Move to right pane
