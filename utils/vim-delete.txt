@@ -1,8 +1,11 @@
-# Copy/Paste
+# Deletions
 
-yy              copy current line into storage buffer
-["x]yy          Copy the current lines into register x
-p               paste storage buffer after current line
-P               paste storage buffer before current line
-["x]p           paste from register x after current line
-["x]P           paste from register x before current line
+x		delete character at cursor
+dw		delete a word.
+d0		delete to the beginning of a line.
+d$		delete to the end of a line.
+d)		delete to the end of sentence.
+dgg		delete to the beginning of the file.
+dG		delete to the end of the file.
+dd		delete line
+3dd             delete three lines
