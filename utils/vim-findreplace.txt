@@ -1,0 +1,18 @@
+# Search and Replace
+
+# search document for search_text going forward
+# and backward
+
+/search_text - forward
+?search_text - backward
+n            - move to the next instance
+	       of the search result
+N            - move to the previous instance
+	       of the result
+
+# Search and replace "original" with "replacement
+
+:%s/original/replacement        First occurrence
+:%s/original/replacement/g      All occurrences
+:%s/original/replacement/gc     All (confirmation)
+

@@ -1,0 +1,13 @@
+# Main
+
+Esc		Command mode
+i		Insert mode
+:		Last-line mode
+:w <new_name>	Save the file with the <new_name> filename
+:wq		Save and quit
+:q!		Quit without saving
+
+# Undo/Redo
+
+u		undo the last operation.
+Ctrl+r		redo the last undo.
