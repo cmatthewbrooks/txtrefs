@@ -1,0 +1,15 @@
+# Switch workspaces
+
+Super+1                 Workspace 1
+Super+2                 Workspace 2
+Super+3                 Workspace 3
+Super+4                 Workspace 4
+
+Super+Page Up           Workspace up
+Super+Page Down         Workspace down
+
+
+# Move windows between workspaces
+
+Shift+Super+Page Up     Move window one workspace up
+Shift+Super+Page Down   Move window one workspace down
