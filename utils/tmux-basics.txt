@@ -1,3 +1,10 @@
-C-b %		Split into 2 vertical panes
-C-b left	Move to left pane
-C-b right	Move to right pane
+# Navigate panes
+
+C-a %		Split into 2 vertical panes
+C-a left	Move to left pane
+C-a right	Move to right pane
+
+# Navigate windows
+
+C-a c       Add new window
+C-a ,       Rename window
