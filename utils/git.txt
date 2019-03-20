@@ -13,3 +13,7 @@
     $ git merge <BRANCH>
     $ git branch -d <BRANCH>
     $ git push origin --delete <BRANCH> # delete remote too
+
+# Ghetto push from laptop to desktop
+
+    $ git push origin master:foo
