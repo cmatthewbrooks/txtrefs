@@ -8,3 +8,6 @@ C-a right	Move to right pane
 
 C-a c       Add new window
 C-a ,       Rename window
+
+# Scrolling
+C-a [       Scroll mode (technically, copy-mode)
