@@ -1,6 +1,10 @@
-
+# Create keys
 # Mostly from https://www.ssh.com/ssh/keygen/
 
 ssh-keygen -f <FILE> -t rsa -b 4096
 ssh-keygen -f <FILE> -t ecdsa -b 521
 ssh-keygen -f <FILE> -t ed25519
+
+# Add key to agent
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/<PRIVATEKEY>
