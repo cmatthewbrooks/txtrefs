@@ -1,0 +1,5 @@
+# pip install from github
+pip install git+https://github.com/cmatthewbrooks/<REPO>.git
+
+# pip install local package for development
+pip install -e .
